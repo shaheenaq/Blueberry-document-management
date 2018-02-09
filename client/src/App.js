@@ -10,6 +10,8 @@ import Footer from "./components/Footer";
 
 import Header from "./components/Header";
 import Jumbotron from "./components/Jumbotron";
+import AddVendors from "./pages/AddVendors";
+
 const App = () =>
   <Router>
     <div>
