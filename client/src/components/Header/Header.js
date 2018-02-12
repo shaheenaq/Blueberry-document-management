@@ -13,7 +13,7 @@ const Header = () => (
 
         </a>
         
-        <p className="navbar-text2 navbar-left tag-line" >The Antioxidant for your Financial Life</p>
+        <p className="navbar-text2 navbar-left tag-line" ></p>
         
           <span className="glyphicon glyphicon-cog " id ="gear" />
         

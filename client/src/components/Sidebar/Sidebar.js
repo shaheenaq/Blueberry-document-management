@@ -39,15 +39,11 @@ const Sidebar = () => (
             <Nav id='/AddCompany' className="appNav">
                 <NavIcon><SvgIcon size={20} icon={leaf}/></NavIcon>
                 <NavText> Add Company </NavText>
-            </Nav>
-            <Nav id='/Vendors' className="appNav">
-                <NavIcon><SvgIcon size={20} icon={leaf}/></NavIcon>
-                <NavText> My Vendors </NavText>
-            </Nav>
+            </Nav>  
 
-            <Nav id='/AddVendors' className="appNav">
+            <Nav id='/SplashPage' className="appNav">
                 <NavIcon><SvgIcon size={20} icon={leaf}/></NavIcon>
-                <NavText> Add Vendors </NavText>
+                <NavText> Pricing </NavText>
             </Nav>
         </SideNav>
     </div>

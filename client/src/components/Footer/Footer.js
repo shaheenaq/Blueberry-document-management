@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import { SocialIcon } from 'react-social-icons';
 
 
 var style = {
@@ -21,6 +22,14 @@ var phantom = {
   height: '60px',
   width: '100%',
 }
+var urls = [
+  'http://jaketrent.com',
+  'http://twitter.com/jaketrent',
+  'http://linkedin.com/in/jaketrent',
+  'http://www.pinterest.com/jaketrent/artsy-fartsy/'
+];
+
+
 
 function Footer() {
     return (
@@ -28,6 +37,11 @@ function Footer() {
             <div style={phantom}>
                 <div style={style}>
                     Our Company - Help - Privacy 
+<SocialIcon url="http://linkedin.com/in/jaketrent" />
+<SocialIcon url="http://twitter.com/" />
+<SocialIcon url="http://facebook.com" />
+
+
                 </div>  
             </div>
         </div>

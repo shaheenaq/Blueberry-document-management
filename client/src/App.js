@@ -5,6 +5,7 @@ import Companies from "./pages/Companies";
 import Vendors from "./pages/Vendors"
 import Login from "./pages/Login";
 import AddCompany from "./pages/AddCompany";
+import { SocialIcon } from 'react-social-icons';
 
 import DisplayPdf from "./pages/DisplayPdf";
 
