@@ -4,22 +4,32 @@ import Logo from "./BBlogo.png";
 
 
 const Header = () => (
-  <nav className="navbar navbar-default">
-    <div className="container-fluid">
-      <div className="navbar-header col-md-12">
-        <a href="/" className="navbar-brand">
-          
-          <img id="logo" height="45" alt="BlueberryLogo" src= {Logo} />
-
-        </a>
-        
-        <p className="navbar-text2 navbar-left tag-line" ></p>
-        
-          <span className="glyphicon glyphicon-cog " id ="gear" />
-        
-      </div>
+  <div class="container-fluid">
+  <div class="row">
+    <div class="col-md-2">
+     <img id="logo" height="40" alt="BlueberryLogo" src= {Logo} />
     </div>
-  </nav>
+    <div class="col-md-2">
+    </div>
+    <div class="col-md-2">
+    </div>
+    <div class="col-md-2">
+       
+      <button type="button" class="btn btn-lg ">
+        Login
+      </button>
+    </div>
+    <div class="col-md-2">
+       
+      <button type="button" class="btn btn-lg ">
+        Settings
+      </button>
+    </div>
+    <div class="col-md-2">
+    <span className="glyphicon glyphicon-cog " id ="gear" />
+    </div>
+  </div>
+</div>
 );
 
    export default Header;

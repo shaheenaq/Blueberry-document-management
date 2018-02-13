@@ -50,8 +50,8 @@ loadCompanies = () => {
 						<Link to="/AddCompany">
 						<button 
 				        	a href="/AddCompany"
-				            type="success"
-				            className="input-lg btn btn-success"
+				            type="default"
+				            className="input-lg btn btn-default"
 				            //onClick={() => {
 				             // alert('Get Ready To Add A New Company!');
 				                

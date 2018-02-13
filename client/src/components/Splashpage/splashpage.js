@@ -11,7 +11,7 @@ const Berryfalls = () => (
   <div>         
     <div class="container-fluid">
   <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-4"class="well well-sm">
       <img alt="Bootstrap Image Preview" src="http://angeltd.com/wp-content/uploads/2016/06/sliver.png" class="img-thumbnail" alt="Silver" width="304" height="236" />
       <h2>
         Silver
@@ -25,10 +25,10 @@ const Berryfalls = () => (
         <a class="btn" href="#">Get Started »</a>
       </p> 
       <button type="button" class="btn btn-default">
-        Default
+        Get Started
       </button>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-4"class="well well-sm">
       <img alt="Bootstrap Image Preview" src="http://angeltd.com/wp-content/uploads/2016/06/gold-package.png"class="img-thumbnail" alt="Gold" width="304" height="236" />
       <h2>
         Gold Plan
@@ -40,10 +40,10 @@ const Berryfalls = () => (
         <a class="btn" href="#">Get Started »</a>
       </p> 
       <button type="button" class="btn btn-default">
-        Default
+        Get Started
       </button>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-4" class="well well-sm">
       <img alt="Bootstrap Image Preview" src="https://appdemo.poweractivesite.com/wp-content/uploads/2015/06/platinum-pkg.png" class="img-thumbnail" alt=" Platinum" width="304" height="236" />
       <h2>
         Platinum Plan
@@ -56,7 +56,7 @@ const Berryfalls = () => (
         <a class="btn" href="#">Get Started »</a>
       </p> 
       <button type="button" class="btn btn-default">
-        Default
+        Get Started
       </button>
     </div>
   </div>
