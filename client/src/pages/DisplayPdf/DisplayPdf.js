@@ -14,8 +14,9 @@ class DisplayPdf extends React.Component {
   render() {
     
     return (
+    	<div id="wrap">
       <img id = "pdf" src={MyPDF}/>
-       
+       </div>
         
       
   )
